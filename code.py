@@ -1,4 +1,7 @@
-#ASADUZZAMAN
+"""
+This script fixes invalid (fancy) quotation marks in the SSH config file (~/.ssh/config),
+which can cause git/ssh errors. It also creates a backup before making changes.
+"""
 import shutil
 from pathlib import Path
 
